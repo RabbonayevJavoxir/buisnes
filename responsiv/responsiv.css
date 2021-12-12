@@ -1,0 +1,119 @@
+@media (min-width: 319px) and (max-width: 768px) {
+  header {
+    display: none;
+  }
+  .menu-nav {
+    display: block;
+    margin-top: 5rem;
+  }
+  .menu-nav ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .box-item {
+    width: 100%;
+    left: 0;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .main .left {
+    width: 100%;
+  }
+  .main .right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .main .right .box {
+    flex-direction: column;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .main .right .img-box {
+    margin-right: 0;
+  }
+  .main .right .img-box img {
+    width: 100%;
+  }
+  .cards .row {
+    flex-direction: column;
+  }
+  .cards .row .col {
+    width: 100%;
+  }
+  .contactUs-item {
+    width: 100% !important;
+    padding: 55px 20px !important;
+  }
+  .contactUs-item .btn {
+    width: 10rem;
+    padding: 15px 20px;
+  }
+  footer div {
+    flex-direction: column;
+  }
+  footer p {
+    order: 2;
+  }
+  footer ul {
+    order: 1;
+    margin-bottom: 3rem;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .main .left {
+    width: 100% !important;
+  }
+  .main .title h3 {
+    font-size: 1.2rem;
+  }
+  .main .right {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+  .p-servis .imgbox {
+    margin-right: 0px;
+  }
+  .main .right .p-servis {
+    flex-direction: column;
+  }
+  .right-card {
+    width: 90%;
+    height: auto;
+    margin: auto;
+  }
+  .right-card div {
+    padding: 2rem;
+  }
+  .about-cards .row {
+    flex-direction: column;
+  }
+  .about-cards .row .col {
+    width: 90%;
+    margin: 3rem auto;
+  }
+  .read-btn {
+    width: 10rem;
+    padding: 15px 30px;
+    text-align: center;
+    float: right;
+  }
+  .img-animation {
+    flex-direction: column;
+    width: 98%;
+    margin: 5rem auto;
+  }
+  .img-animation .card {
+    width: 100%;
+    margin: 1.5rem auto;
+    position: relative;
+    overflow: hidden;
+  }
+}
